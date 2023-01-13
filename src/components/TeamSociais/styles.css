@@ -1,0 +1,42 @@
+/* .container-redes {
+    display: flex;
+    margin-top: 2em;
+    width: 100%;
+
+}
+
+.main-redes-container {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.card-redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+   
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+} */
+
+.midias-team-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  width: 100px;
+  justify-content: space-around;
+}
+
+.logo-img-team {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  object-fit: cover;
+}

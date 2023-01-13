@@ -1,0 +1,15 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: margin-top;
+  width: width;
+  border: none;
+  background-color: #dcb4a7;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}

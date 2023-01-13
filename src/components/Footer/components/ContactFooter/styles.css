@@ -1,0 +1,18 @@
+.contact-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  gap: 10px;
+  height: 40px;
+}
+
+p {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

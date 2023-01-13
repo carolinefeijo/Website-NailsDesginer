@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+  .card-container-service {
+    flex-direction: column;
+  }
+
+  .service-image {
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .CardColumn {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 1em;
+  }
+  li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    opacity: 0.8;
+    color: #6d6d6d;
+    line-height: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    margin: 0;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+  .card-container-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20em;
+  }
+
+  .service-image {
+    width: 600px;
+    height: 650px;
+    margin-top: 20px;
+  }
+
+  .card-container-service-reverse {
+    align-items: center;
+    justify-content: center;
+    gap: 20em;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    color: #6d6d6d;
+    line-height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    margin: 0;
+  }
+}
+
+.CardColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+h2 {
+  color: #dcb4a7;
+  font-weight: 400;
+  font-family: Prata;
+  font-size: 46px;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
+.h6-service {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #6d6d6d;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bolder;
+  opacity: 0.6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 11px;
+  height: 10px;
+}
+
+.service-image {
+  object-fit: cover;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+  border-top-left-radius: 70%;
+  border-top-right-radius: 30% 70%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 70% 30%;
+}

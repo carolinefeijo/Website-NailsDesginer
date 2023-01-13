@@ -1,0 +1,7 @@
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+    .container-id {
+        width: 90%;
+    }
+}
+

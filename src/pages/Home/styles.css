@@ -1,0 +1,106 @@
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+  .service-container {
+    gap: 10em;
+  }
+
+  .container-card-container {
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .container-form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+  .service-container {
+    gap: 15em;
+  }
+
+  .container-form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 10em;
+    flex-direction: row;
+  }
+  .container-home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 120px;
+  }
+}
+
+.img-unha {
+  width: 100%;
+}
+
+.container-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 150px;
+}
+
+.title-depositions {
+  color: #dcb4a7;
+  font-weight: 400;
+  font-family: Prata;
+  font-size: 42px;
+  line-height: 56px;
+  letter-spacing: -1px;
+}
+
+.title-depositions-secundary {
+  font-size: 20px;
+  color: #828282;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 25px;
+}
+
+.container-card-container {
+  display: flex;
+  gap: 15px;
+}
+
+.service-container {
+  margin-top: 80px;
+  flex-direction: column;
+  display: flex;
+}
+
+.div-container-carrousel-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-color: #e0c9c1;
+}
+
+.slides-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #e6d1ca;
+}

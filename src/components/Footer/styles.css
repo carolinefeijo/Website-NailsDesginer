@@ -1,0 +1,51 @@
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+  .footer-container {
+    align-items: center;
+    width: 100%;
+    background-color: #fcf7f7;
+    flex-direction: column;
+    margin-top: 20em;
+  }
+
+  .footer-main-position {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .default-alignment-container {
+    margin: 3em;
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+    gap: 3em;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #fcf7f7;
+    margin-top: 20em;
+  }
+
+  .footer-main-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .default-alignment-container {
+    gap: 10em;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
