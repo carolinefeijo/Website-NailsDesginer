@@ -27,7 +27,7 @@ export const slides = [
 
   {
     img: client3,
-    name: "Amanda",
+    name: "Rafaela",
     type: "Cliente",
     description:
       "Sou apaixonada pelo trabalho que ela faz e principalmente apaixonada pela durabilidade e pela perfeição que ela deixa as minhas unhas, sempre saio de lá apaixonada.",
