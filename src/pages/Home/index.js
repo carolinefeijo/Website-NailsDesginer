@@ -33,7 +33,7 @@ export const Home = () => {
       </div>
       <div className="container-card-container">
         {slides.map((client) => (
-          <CardSlides client={client} key={client.name} />
+          <CardSlides client={client} key={client} />
         ))}
       </div>
 
@@ -49,7 +49,6 @@ export const Home = () => {
       </div>
 
       <Footer />
-
     </div>
   )
 }
